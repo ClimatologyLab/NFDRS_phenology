@@ -50,11 +50,9 @@ greenedup=0;
 
 %loop over days
 for ij=1:365 
-  
 ii=gg(jyr)+ij;
-j_date=doy(ii);
-lyear=yr(ii);
-
+%j_date=doy(ii);
+%lyear=yr(ii);
 % CALCULATE CURING FROM CURING FUNCTION (78)
 [fmwood,fherbc,greenedup] =calc_curing_gsi(climcl,gsi(ii),greenedup);
 
